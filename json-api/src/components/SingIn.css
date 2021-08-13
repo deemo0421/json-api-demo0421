@@ -1,0 +1,75 @@
+.singIn{
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    margin-top: 50px;
+    max-width: 400px;
+    width: 90%;
+    border-radius: 2%;
+    border-style: solid;
+    border-width: 2px;
+}
+.singInTitle{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.singInTitle span{
+    font-size: 40px;
+}
+.singInTitle button{
+    font-size: 20px;
+}
+.singInData{
+    margin: 10px 20px;
+    font-size: 30px;
+}
+.singInData input{
+    width: 95%;
+    font-size: 30px;
+}
+.sumbit{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 20px 0px;
+    font-size: 25px;
+    color: white;
+    background-color: #059862;
+    border-width: 0px;
+}
+.sumbit:hover{
+    background-color: rgb(27, 136, 27);
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+input:hover{
+    background-color: rgb(248, 255, 255);
+    border-color: rgb(139, 170, 190);
+    border-style: solid;
+    border-width: 3px;
+}
+input:focus{
+    background-color: rgb(248, 255, 255);
+    border-color: rgb(139, 170, 190);
+    border-style: solid;
+    border-width: 1px;
+}
+.link{
+    background-color:rgba(255, 255, 255, 0.6);
+    border-color: #059862;
+    border-style: solid;
+    border-width: 1px;
+}
+.link:hover{
+    background-color:#059862;
+    text-decoration:none;
+}
+.linktext{
+    text-decoration:none;
+    color: black;
+}
+.linktext:hover{
+    text-decoration:none;
+    color: white;
+}
